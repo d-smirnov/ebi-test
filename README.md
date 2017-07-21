@@ -39,6 +39,8 @@ Launch
 git clone https://github.com/d-smirnov/ebi-test.git
 
 Compile:
+
+	cd ebi-test
 	mvn package
 
 
