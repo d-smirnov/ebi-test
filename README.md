@@ -46,12 +46,12 @@ Compile:
 
 Command line endpoint:
 
-	java -cp target\ebi-test-0.0.1-SNAPSHOT-jar-with-dependencies.jar task.CommandLine COMMA_SEPARATED_ACCESSION_LIST
+	java -cp target/ebi-test-0.0.1-SNAPSHOT-jar-with-dependencies.jar task.CommandLine COMMA_SEPARATED_ACCESSION_LIST
 
 Web endpoint:
 
 	run WebLine:
-		java -cp target\ebi-test-0.0.1-SNAPSHOT-jar-with-dependencies.jar task.WebLine
+		java -cp target/ebi-test-0.0.1-SNAPSHOT-jar-with-dependencies.jar task.WebLine
 		
 	then open in browser: 
 		http://localhost:4567/COMMA_SEPARATED_ACCESSION_LIST
