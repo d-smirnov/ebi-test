@@ -35,7 +35,8 @@ ERR000115-ERR000116, ERR100114, ERR200000001-ERR200000003, SRR211001
 
 Launch
 -
-git clone 
+ 
+git clone https://github.com/d-smirnov/ebi-test.git
 
 Compile:
 	mvn package
